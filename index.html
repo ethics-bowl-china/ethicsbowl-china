@@ -56,8 +56,56 @@
 			    transition: bottom 1s;
 			    bottom:0px;
 			}
+			
+			/* Cookie and Privacy Policy at the top*/
+			
+			#topbar1 {
+	    position:fixed;
+	    bottom: -600px;
+	    display: block;
+	    z-index: 99999;
+	    box-sizing: border-box;
+	    width: 100%;
+	    padding: 10px;
+	    background-color: #fff;
+	    color: #00000;
+	    text-align: center;
+	    -webkit-box-shadow: 0 8px 6px -6px black;
+	       -moz-box-shadow: 0 8px 6px -6px black;
+	            box-shadow: 0 8px 6px -6px black;
+	    transition: top 1s;
+			}
+			/* Hiding the checkbox */
+			#toggleTop1 {
+			    display: none;
+			}
+			/* Styling the lables, to show and hide the bar */
+			#showTop1 {
+			    position: fixed;
+			    z-index: 9999;
+			    bottom: 0;
+			    right: 30px;
+			    display: block;
+			    padding: 10px;
+			    background-color: #fff;
+			    color: #fff;
+			}
+			#hideTop1 {
+			    float: right;
+			    display: inline-block;
+			}
+			/* Displaying the bar when the checkbox is checked */
+			#toggleTop1:checked1 + #topbar1 {
+			    transition: top 1s;
+			    top:0px;
+			}
 		</style>
 	</head>
+		<input type="checkbox1" id="toggleTop1" name="toggleTop1" value="toggleTop1" checked="checked1">
+	<div id="topbar1">
+We value your privacy. By continuing browsing this website, you consent our use of cookies and collection of personal information when necessary.
+		<label for="toggleTop1" id="hideTop1">X</label>
+	</div>
 	<input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
 	<div id="topbar">
 The 2020-2021 Ethics Bowl season has been launched. <a href="https://apply.ethicsbowlchina.com">Apply</a> now for the EBC program!
