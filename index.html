@@ -57,48 +57,6 @@
 			    bottom:0px;
 			}
 			
-			/* Cookie and Privacy Policy at the top*/
-			
-#topbar1 {
-    position:fixed;
-    top: -1px; /* has to be around the height of the bar or more. */
-    display: block;
-    z-index: 99999;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px;
-    background-color: #c0392b;
-    color: #fff;
-    text-align: center;
-    -webkit-box-shadow: 0 -8px 6px -6px black;
-       -moz-box-shadow: 0 -8px 6px -6px black;
-            box-shadow: 0 -8px 6px -6px black;
-    transition: top 1s;
-			}
-			/* Hiding the checkbox */
-#toggleTop1 {
-    display: none;
-}
-/* Styling the lables, to show and hide the bar */
-#showTop1 {
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    right: 30px;
-    display: block;
-    padding: 10px;
-    background-color: #000000;
-    color: #fff;
-}
-#hideTop1 {
-    float: right;
-    display: inline-block;
-}
-			/* Displaying the bar when the checkbox is checked */
-#toggleTop1:checked1 + #topbar1 {
-    transition: top 1s;
-    top:0px;
-}
 		</style>
 	</head>
 	<input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
@@ -404,12 +362,15 @@ The 2020-2021 Ethics Bowl season has been launched. <a href="https://apply.ethic
 			</footer>
 
 		<!-- Scripts -->
-<script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
+<script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"en","website_name":"Ethics Bowl China","change_preferences_selector":""});
+cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","language":"en"});
 });
 </script>
+
+<noscript>Cookie Consent by <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
+<!-- End Cookie Consent -->
 
 <!-- End Cookie Consent -->
 			<script src="assets/js/jquery.min.js"></script>
