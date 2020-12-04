@@ -61,7 +61,7 @@
 			
 #topbar1 {
     position:fixed;
-    top: -600px; /* has to be around the height of the bar or more. */
+    top: -1px; /* has to be around the height of the bar or more. */
     display: block;
     z-index: 99999;
     box-sizing: border-box;
@@ -70,9 +70,9 @@
     background-color: #c0392b;
     color: #fff;
     text-align: center;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-       -moz-box-shadow: 0 8px 6px -6px black;
-            box-shadow: 0 8px 6px -6px black;
+    -webkit-box-shadow: 0 -8px 6px -6px black;
+       -moz-box-shadow: 0 -8px 6px -6px black;
+            box-shadow: 0 -8px 6px -6px black;
     transition: top 1s;
 			}
 			/* Hiding the checkbox */
@@ -101,10 +101,10 @@
 }
 		</style>
 	</head>
-		<input type="checkbox1" id="toggleTop1" name="toggleTop1" value="toggleTop1" checked="checked1">
-	<div id="topbar1">
+		<input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
+	<div id="topbar">
 We value your privacy. By continuing browsing this website, you consent our use of cookies and collection of personal information when necessary.
-		<label for="toggleTop1" id="hideTop1">X</label>
+		<label for="toggleTop" id="hideTop">X</label>
 	</div>
 	<input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
 	<div id="topbar">
