@@ -10,6 +10,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
 </head>
 <!--
 <input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
@@ -45,6 +67,10 @@ Visit the <a href="https://ethicsbowlchina.com/resources.html">Resources</a> pag
 		<!-- Main -->
 			<section id="main">
 				<div class="inner">
+				<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+</div>
 					<header class="major special">
 						<h1>Ethics Bowl Resources</h1>
 						<p><b>For participants, coaches, judges, and moderators from all events under the Ethics Bowl China! <br>If you are already a member, please <a href="https://ethicsbowlchina.com/resources.html">click here</a> to visit the resources page that includes online seminars. You will need a passcode given to you upon registration.</b></p>
