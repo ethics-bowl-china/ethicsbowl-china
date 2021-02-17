@@ -5,182 +5,193 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>Ethics Bowl China</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#41228e">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
 
-		<style>
-			#topbar {
-	    position:fixed;
-	    bottom: -600px;
-	    display: block;
-	    z-index: 99999;
-	    box-sizing: border-box;
-	    width: 100%;
-	    padding: 10px;
-	    background-color: #fff;
-	    color: #00000;
-	    text-align: center;
-	    -webkit-box-shadow: 0 -8px 6px -6px black;
-	       -moz-box-shadow: 0 -8px 6px -6px black;
-	            box-shadow: 0 -8px 6px -6px black;
-	    transition: bottom 1s;
-			}
-			/* Hiding the checkbox */
-			#toggleTop {
-			    display: none;
-			}
-			/* Styling the lables, to show and hide the bar */
-			#showTop {
-			    position: fixed;
-			    z-index: 9999;
-			    bottom: 0;
-			    right: 30px;
-			    display: block;
-			    padding: 10px;
-			    background-color: #fff;
-			    color: #fff;
-			}
-			#hideTop {
-			    float: right;
-			    display: inline-block;
-			}
-			/* Displaying the bar when the checkbox is checked */
-			#toggleTop:checked + #topbar {
-			    transition: bottom 1s;
-			    bottom:0px;
-			}
-			.dropdown {
-  position: relative;
-  display: inline-block;
-}
+<head>
+	<title>Ethics Bowl China</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#41228e">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
+	<style>
+		#topbar {
+			position: fixed;
+			bottom: -600px;
+			display: block;
+			z-index: 99999;
+			box-sizing: border-box;
+			width: 100%;
+			padding: 10px;
+			background-color: #fff;
+			color: #00000;
+			text-align: center;
+			-webkit-box-shadow: 0 -8px 6px -6px black;
+			-moz-box-shadow: 0 -8px 6px -6px black;
+			box-shadow: 0 -8px 6px -6px black;
+			transition: bottom 1s;
+		}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+		/* Hiding the checkbox */
+		#toggleTop {
+			display: none;
+		}
 
-.regionals {
-padding: 2em;
-}
+		/* Styling the lables, to show and hide the bar */
+		#showTop {
+			position: fixed;
+			z-index: 9999;
+			bottom: 0;
+			right: 30px;
+			display: block;
+			padding: 10px;
+			background-color: #fff;
+			color: #fff;
+		}
 
-		</style>
+		#hideTop {
+			float: right;
+			display: inline-block;
+		}
+
+		/* Displaying the bar when the checkbox is checked */
+		#toggleTop:checked+#topbar {
+			transition: bottom 1s;
+			bottom: 0px;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.regionals {
+			padding: 2em;
+		}
+	</style>
 
 
-	</head>
-	<input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
-	<div id="topbar">
-Recent news on our workshop and Ethics Bowl competition will be updated before Friday, February 19th.
-		<label for="toggleTop" id="hideTop">X</label>
-	</div>
-	<body>
+</head>
+<input type="checkbox" id="toggleTop" name="toggleTop" value="toggleTop" checked="checked">
+<div id="topbar">
+	Click <a href="https://news.ethicsbowlchina.com">here</a> for updates on the recent Moral Philosophy Workshop and Shanghai Interscholastic Ethics Bowl!
+	<label for="toggleTop" id="hideTop">X</label>
+</div>
 
-		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="logo"><strong>Ethics Bowl</strong> China</a>
-				<nav>
-					<a href="#menu">Menu</a>
-				</nav>
-			</header>
+<body>
 
-		<!-- Nav -->
-		<nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About & People</a></li>
-				<li><a href="https://news.ethicsbowlchina.com">Latest News</a></li>
-				<li><a href="timeline.html">A Timeline of Our History</a></li>
-				<li><a href="resources.html">Ethics Bowl Resources</a></li>
-				<li><a href="faqs.html">Frequently Asked Questions</a></li>
-				<li><a href="ieo.html">International Programs</a></li>
-				<li><a href="https://ethicsbowlchina.com/workshop">Moral Philosophy Workshop</a></li>
-				<li><a href="https://symposium.ethicsbowlchina.com">The Ethics Bowl Symposium</a></li>
-				<li><a href="https://apply.ethicsbowlchina.com/">Apply Now!</a></li>
-			</ul>
+	<!-- Header -->
+	<header id="header">
+		<a href="index.html" class="logo"><strong>Ethics Bowl</strong> China</a>
+		<nav>
+			<a href="#menu">Menu</a>
 		</nav>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About & People</a></li>
+			<li><a href="https://news.ethicsbowlchina.com">Latest News</a></li>
+			<li><a href="timeline.html">A Timeline of Our History</a></li>
+			<li><a href="resources.html">Ethics Bowl Resources</a></li>
+			<li><a href="faqs.html">Frequently Asked Questions</a></li>
+			<li><a href="ieo.html">International Programs</a></li>
+			<li><a href="https://news.ethicsbowlchina.com/?p=1">Moral Philosophy Workshop</a></li>
+			<li><a href="https://symposium.ethicsbowlchina.com">The Ethics Bowl Symposium</a></li>
+			<li><a href="https://apply.ethicsbowlchina.com">Apply Now!</a></li>
+		</ul>
+	</nav>
 
 
 
-		<!-- Banner -->
-			<section id="banner">
-					<h1>We are building a community of morally engaged teenagers who think critically <I>as a community</I>.</h1>
-					<ul class="actions">
-						<li><a href="timeline.html" class="button alt scrolly big">See what we've done</a></li>
-					</ul>
-			</section>
+	<!-- Banner -->
+	<section id="banner">
+		<h1>We are building a community of morally engaged teenagers who think critically <I>as a community</I>.</h1>
+		<ul class="actions">
+			<li><a href="timeline.html" class="button alt scrolly big">See what we've done</a></li>
+		</ul>
+	</section>
 
-			<!-- Zero -->
-				<article id="-1" class="post style1">
-					<div class="image">
-						<img src="https://s1.ax1x.com/2020/04/17/JEnkJ1.jpg" alt="" data-position="60% center" />
-					</div>
-					<div class="content">
-						<div class="inner">
-							<header>
-								<h2><a href="about.html#what-is-eb">What is the Ethics Bowl?</a></h2>
-							</header>
-							<p>
-								The Ethics Bowl is, as its name suggests, a discussion on ethical issues. It takes the form of a debate (where two teams exchange ideas with each other), but it is, in essence, different from a debate. In the Ethics Bowl, teams do not aim to prove the other side wrong. Instead, they engage in constructive and respectful dialogue to demonstrate their ability to think critically and collaboratively on contentious ethical issues. It is the mission of the Ethics Bowl to promote respectful, supportive, and in-depth discussion of ethics among pre-college students, thus preparing them to navigate challenging ethical issues in a complex moral and political community.
-							</p>
-							<ul class="actions">
-								<li><a href="about.html#what-is-eb" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="postnav">
-							<a href="#banner" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-							<a href="#zero" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-						</div>
-					</div>
-				</article>
+	<!-- Zero -->
+	<article id="-1" class="post style1">
+		<div class="image">
+			<img src="https://s1.ax1x.com/2020/04/17/JEnkJ1.jpg" alt="" data-position="60% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="about.html#what-is-eb">What is the Ethics Bowl?</a></h2>
+				</header>
+				<p>
+					The Ethics Bowl is, as its name suggests, a discussion on ethical issues. It takes the form of a debate (where two teams exchange ideas with each other), but it is, in essence, different from a debate. In the Ethics Bowl, teams do not aim
+					to prove the other side wrong. Instead, they engage in constructive and respectful dialogue to demonstrate their ability to think critically and collaboratively on contentious ethical issues. It is the mission of the Ethics Bowl to promote
+					respectful, supportive, and in-depth discussion of ethics among pre-college students, thus preparing them to navigate challenging ethical issues in a complex moral and political community.
+				</p>
+				<ul class="actions">
+					<li><a href="about.html#what-is-eb" class="button alt">Learn More</a></li>
+				</ul>
+			</div>
+			<div class="postnav">
+				<a href="#banner" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#zero" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
 
-		<!-- One -->
-			<article id="zero" class="post style2 alt">
-				<div class="image">
-					<img src="https://s1.ax1x.com/2020/04/20/JlS3nO.jpg" alt="" data-position="50% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2><a href="about.html#what-is-ebc">What is the Ethics Bowl China?</a></h2>
-						</header>
-						<p>
-							The Ethics Bowl was initially an event for US college and high school students. It was introduced to China in 2019 as an International Affiliate of the US Ethics Bowl and was first known as the Shanghai Interscholastic Ethics Bowl (SIEB). The EBC now oversees four regional Ethics Bowls across the country and provides all kinds of support for our regional organizers, including promotions, fundraising, material design, and international collaboration opportunities with our partners. Each year, hundreds of students participate in Ethics Bowl competitions held by our regional affiliates and our nationwide Ethics and Philosophy Workshops. The EBC is also the co-organizer of several international Ethics Bowl events (see below).
-						</p>
-						<ul class="actions">
-							<li><a href="about.html#what-is-ebc" class="button alt">Learn More</a></li>
-						</ul>
-					</div>
-					<div class="postnav">
-						<a href="#-1" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#one" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-
-
-<article class="post invert style2">
-	<div class="content">
-		<div class="inner">
-			<header>
-				<h2><a href="about.html">Recent Updates</a></h2>
-			</header>
-	</div>
-</article>
+	<!-- One -->
+	<article id="zero" class="post style2 alt">
+		<div class="image">
+			<img src="https://s1.ax1x.com/2020/04/20/JlS3nO.jpg" alt="" data-position="50% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="about.html#what-is-ebc">What is the Ethics Bowl China?</a></h2>
+				</header>
+				<p>
+					The Ethics Bowl was initially an event for US college and high school students. It was introduced to China in 2019 as an International Affiliate of the US Ethics Bowl and was first known as the Shanghai Interscholastic Ethics Bowl (SIEB).
+					The EBC now oversees four regional Ethics Bowls across the country and provides all kinds of support for our regional organizers, including promotions, fundraising, material design, and international collaboration opportunities with our
+					partners. Each year, hundreds of students participate in Ethics Bowl competitions held by our regional affiliates and our nationwide Ethics and Philosophy Workshops. The EBC is also the co-organizer of several international Ethics Bowl
+					events (see below).
+				</p>
+				<ul class="actions">
+					<li><a href="about.html#what-is-ebc" class="button alt">Learn More</a></li>
+				</ul>
+			</div>
+			<div class="postnav">
+				<a href="#-1" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#one" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
 
 
-<!--
+	<article class="post invert style2">
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="about.html">Recent Updates</a></h2>
+				</header>
+			</div>
+	</article>
+
+
+	<!--
 			<article id="two" class="post style1">
 				<div class="image">
 					<img src="https://s1.ax1x.com/2020/04/17/JEnFiR.jpg" alt="" data-position="60% center" />
@@ -314,204 +325,231 @@ Recent news on our workshop and Ethics Bowl competition will be updated before F
 
 -->
 
-		<!-- end -->
-			<article id="six" class="post style2">
-				<div class="image">
-					<img src="https://s3.ax1x.com/2021/02/17/ygtlrR.jpg" alt="" data-position="10% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2><a href="about.html#contact">2021 Winter Moral Philosophy Workshop</a></h2>
-						</header>
-						<p>The 2021 Winter Moral Philosophy Workshop is a 4-day (1/31 - 2/3) seminar series led by 7 professionals in ethics from across the globe. Over 130 students from 26 schools participated in the workshop. The seminar topics include moral relativism, just war, the Eichmann Trial and the use of examples in ethical reasoning, the four mapping techniques for analyzing ethical cases, and ethics in the criminal justice system, etc. Our sincere gratitude to the speakers (in order of their seminars): Matt Deaton, Yan Li, Emily Muller, Raymond Sokalski, Nova Martin, Matthew Wu, and Ava Truthwaite. And special thanks to Estelle Lamoureux for her generous support that made this workshop possible!</p>
-						<ul class="actions">
-							<li><a href="about.html#contact" class="button alt">Learn More</a></li>
-						</ul>
-					</div>
-					<div class="postnav">
-						<a href="#five" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#footer" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-
-			<article id="one" class="post alt style3">
-				<div class="image">
-					<img src="https://s3.ax1x.com/2021/02/17/ygtHiT.jpg" alt="" data-position="50% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2><a href="ieo.html">2021 Shanghai Interscholastic Ethics Bowl</a></h2>
-						</header>
-						<p>
-							In the aftermath of the coronavirus outbreak in China, we are fortunate to hold the 2021 Shanghai Interscholastic Ethics Bowl on Feb. 7th – in a hyrid format, with Shanghai teams gathering in person and teams from other provinces participating remotely. 14 teams from Shanghai, Beijing, Changshu, and Guangzhou enjoyed a full day of constructive discussions on ethical dilemmas. Congratulations to SMIC School from Shanghai for claiming first place! They were followed by Affiliated High School of SCNU, Guangzhou, in second place, and Shanghai Pinghe School in third place.
-						</p>
-						<ul class="actions">
-							<li><a href="ieo.html" class="button alt">Learn More</a></li>
-						</ul>
-					</div>
-					<div class="postnav">
-						<a href="#zero" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-
-			<article id="-1" class="post style1">
-				<div class="image">
-					<img src="https://s3.ax1x.com/2021/02/17/ygNNT0.jpg" alt="" data-position="60% center" />
-				</div>
-				<div class="content">
-					<div class="inner">
-						<header>
-							<h2><a href="about.html#what-is-eb">The Ethics Bowl Symposium</a></h2>
-						</header>
-						<p>
-							The Ethics Bowl Symposium is an online platform developed for the 2021 Winter Moral Philosophy Workshop, and will also used for future workshops and seminars. The Symposium platform, based on Moodle LMS, allows students to manage course schedules, complete assignments, cross-assess each other's work, co-edit wiki pages and glossaries, download course materials, and join forum discussions during the workshop.
-						</p>
-						<ul class="actions">
-							<li><a href="about.html#what-is-eb" class="button alt">Visit the Symposium</a></li>
-						</ul>
-					</div>
-					<div class="postnav">
-						<a href="#banner" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-						<a href="#zero" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-					</div>
-				</div>
-			</article>
-
-			<!-- One -->
-				<article class="post invert style3">
-					<div class="content">
-						<div class="inner">
-							<header>
-								<h2><a href="ieo.html">International Events</a></h2>
-							</header>
-					</div>
-				</article>
-
-				<!-- Two -->
-					<article id="one" class="post style3">
-						<div class="image">
-							<img src="https://s1.ax1x.com/2020/04/29/Jo126I.jpg" alt="" data-position="50% center" />
-						</div>
-						<div class="content">
-							<div class="inner">
-								<header>
-									<h2><a href="ieo.html">International Ethics Bowl/Olympiad Program</a></h2>
-									<p class="info"><a href="ieo.html">Ethics Bowl China, Ethics Olympiad</a></p>
-								</header>
-								<p>
-									The International Ethics Bowl/Olympiad connects teams from China, Australia, New Zealand, and Canada.
-								</p>
-								<ul class="actions">
-									<li><a href="ieo.html" class="button alt">Learn More</a></li>
-								</ul>
-							</div>
-							<div class="postnav">
-								<a href="#zero" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
-								<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
-							</div>
-						</div>
-					</article>
-
-					<!-- One -->
-						<article class="post invert style1">
-							<div class="content">
-								<div class="inner">
-									<header>
-										<h2><a href="about.html">Regional Affiliates</a></h2>
-									</header>
-							</div>
-						</article>
-
-						<div class="regionals">
-
-<article id="two" class="post style1">
-
-<div class="regionals">
-		<div class="inner">
-			<header>
-															<img src="https://s3.ax1x.com/2021/02/17/ygJFzj.jpg" style="height: 100%  ! important; width: 100% ! important;"/><br><br>
-				<h3><a href="ieo.html">Shanghai Interscholastic Ethics Bowl</a></h3>
-			</header>
-			<p>
-				The Shanghai Interscholastic Ethics Bowl is the first Ethics Bowl event in China, based at No.2 High School of East China Normal University. So far, it has held two formal Ethics Bowls in 2020 and 2021, both online and offline.
-			</p>
-			<ul class="actions">
-				<li><a href="ieo.html" class="button alt">Learn More</a></li>
-			</ul>
-			</div>
-</div>
-
-<div class="regionals">
-					<div class="inner">
-						<header>
-																		<img src="https://s3.ax1x.com/2021/02/17/ygJVLq.jpg" style="height: 100%  ! important; width: 100% ! important;"/><br><br>
-							<h3><a href="ieo.html" style="color:#3498db ! important;">Sichuan High School Ethics Bowl</a></h3>
-						</header>
-						<p>
-							The Sichuan High School Ethics Bowl (SHSEB) is based at Jiaxiang Foreign Language School in Chengdu, Sichuan. The first SHSEB was held in person on August 13th, 2020.
-						</p>
-						<ul class="actions">
-							<li><a href="ieo.html" class="button alt" style="color:#3498db ! important;">Learn More</a></li>
-						</ul>
-						</div>
-</div>
-<div class="regionals">
-							<div class="inner">
-								<header>
-																				<img src="https://s3.ax1x.com/2021/02/17/ygY0EV.jpg" style="height: 100%  ! important; width: 100% ! important;"/><br><br>
-									<h3><a href="ieo.html" style="color:#9b59b6 ! important;">Shenzhen High School Ethics Bowl</a></h3>
-								</header>
-								<p>
-The Shenzhen High School Ethics Bowl is based at the Shenzhen College of International Education. The first competition there will be held in summer, 2021.
-								</p>
-								<ul class="actions">
-									<li><a href="ieo.html" class="button alt"  style="color:#9b59b6 ! important;">Learn More</a></li>
-								</ul>
-								</div>
-</div>
-<div class="regionals">
-
-									<div class="inner">
-										<header>
-											<img src="https://s3.ax1x.com/2021/02/17/ygYcv9.jpg" style="height: 100%  ! important; width: 100% ! important;"/><br><br>
-											<h3><a href="ieo.html">Xi'an High School Ethics Bowl</a></h3>
-										</header>
-										<p>
-											The Xi'an High School Ethics Bowl is founded in alliance with the Academic Debate Association of China. Its first Bowl will be held in ealy autumn, 2021.
-										</p>
-										<ul class="actions">
-											<li><a href="ieo.html" class="button alt">Learn More</a></li>
-										</ul>
-										</div>
-									</div>
-
-</article>
-</div>
-
-
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.youtube.com/channel/UC3VG_IyE0O_FI4F3BEnZAmg/playlists" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
-					<div class="dropdown">
-						<div class="dropdown-content">
-							<img src="https://s3.ax1x.com/2021/02/15/yyvK5n.jpg"/>
-						</div>
-					<li><a class="icon fa-wechat"><span class="label">WeChat</span></a></li>
-					</div>
+	<!-- end -->
+	<article id="six" class="post style2">
+		<div class="image">
+			<img src="https://s3.ax1x.com/2021/02/17/ygtlrR.jpg" alt="" data-position="10% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="about.html#contact">2021 Winter Moral Philosophy Workshop</a></h2>
+				</header>
+				<p>The 2021 Winter Moral Philosophy Workshop is a 4-day (1/31 - 2/3) seminar series led by 7 professionals in ethics from across the globe. Over 130 students from 26 schools participated in the workshop. The seminar topics include moral
+					relativism, just war, the Eichmann Trial and the use of examples in ethical reasoning, the four mapping techniques for analyzing ethical cases, and ethics in the criminal justice system, etc. Our sincere gratitude to the speakers (in order
+					of their seminars): Matt Deaton, Yan Li, Emily Muller, Raymond Sokalski, Nova Martin, Matthew Wu, and Ava Truthwaite. And special thanks to Estelle Lamoureux for her generous support that made this workshop possible!</p>
+				<ul class="actions">
+					<li><a href="about.html#contact" class="button alt">Learn More</a></li>
 				</ul>
-				<div class="copyright">
-					&copy; 2021 Ethics Bowl China. Website created by Leo Huang</a>.
-				</div>
-			</footer>
+			</div>
+			<div class="postnav">
+				<a href="#five" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#footer" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
 
-<!---
+	<article id="one" class="post alt style3">
+		<div class="image">
+			<img src="https://s3.ax1x.com/2021/02/17/ygtHiT.jpg" alt="" data-position="50% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="ieo.html">2021 Shanghai Interscholastic Ethics Bowl</a></h2>
+				</header>
+				<p>
+					In the aftermath of the coronavirus outbreak in China, we are fortunate to hold the 2021 Shanghai Interscholastic Ethics Bowl on Feb. 7th – in a hyrid format, with Shanghai teams gathering in person and teams from other provinces
+					participating remotely. 14 teams from Shanghai, Beijing, Changshu, and Guangzhou enjoyed a full day of constructive discussions on ethical dilemmas. Congratulations to SMIC School from Shanghai for claiming first place! They were followed
+					by Affiliated High School of SCNU, Guangzhou, in second place, and Shanghai Pinghe School in third place.
+				</p>
+				<ul class="actions">
+					<li><a href="ieo.html" class="button alt">Learn More</a></li>
+				</ul>
+			</div>
+			<div class="postnav">
+				<a href="#zero" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
+
+	<article id="-1" class="post style1">
+		<div class="image">
+			<img src="https://s3.ax1x.com/2021/02/17/ygNNT0.jpg" alt="" data-position="60% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="https://symposium.ethicsbowlchina.com">The Ethics Bowl Symposium</a></h2>
+				</header>
+				<p>
+					The Ethics Bowl Symposium is an online platform developed for the 2021 Winter Moral Philosophy Workshop, and will also used for future workshops and seminars. The Symposium platform, based on Moodle LMS, allows students to manage course
+					schedules, complete assignments, cross-assess each other's work, co-edit wiki pages and glossaries, download course materials, and join forum discussions during the workshop.
+				</p>
+				<ul class="actions">
+					<li><a href="https://symposium.ethicsbowlchina.com" class="button alt">Visit the Symposium</a></li>
+				</ul>
+			</div>
+			<div class="postnav">
+				<a href="#banner" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#zero" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
+
+	<!-- One -->
+	<article class="post invert style3">
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="ieo.html">International Events</a></h2>
+				</header>
+			</div>
+	</article>
+
+	<!-- Two -->
+	<article id="one" class="post style3">
+		<div class="image">
+			<img src="https://s1.ax1x.com/2020/04/29/Jo126I.jpg" alt="" data-position="50% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="ieo.html">International Ethics Bowl/Olympiad Program</a></h2>
+					<p class="info"><a href="ieo.html">Ethics Bowl China, Ethics Olympiad</a></p>
+				</header>
+				<p>
+					The International Ethics Bowl/Olympiad connects teams from China, Australia, New Zealand, and Canada.
+				</p>
+				<ul class="actions">
+					<li><a href="ieo.html" class="button alt">Learn More</a></li>
+				</ul>
+			</div>
+			<div class="postnav">
+				<a href="#zero" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
+
+	<!-- One -->
+	<article class="post invert style1">
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="about.html">Regional Affiliates</a></h2>
+				</header>
+			</div>
+	</article>
+
+	<div class="regionals">
+
+		<article id="two" class="post style1">
+
+			<div class="regionals">
+				<div class="inner">
+					<header>
+						<img src="https://s3.ax1x.com/2021/02/17/ygJFzj.jpg" style="height: 100%  ! important; width: 100% ! important;" /><br><br>
+						<h3><a href="https://sieb.ethicsbowlchina.com">Shanghai Interscholastic Ethics Bowl</a></h3>
+					</header>
+					<p>
+						The Shanghai Interscholastic Ethics Bowl is the first Ethics Bowl event in China, based at No.2 High School of East China Normal University. So far, it has held two formal Ethics Bowls in 2020 and 2021, both online and offline.
+					</p>
+					<ul class="actions">
+						<li><a href="https://sieb.ethicsbowlchina.com" class="button alt">Official Website</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="regionals">
+				<div class="inner">
+					<header>
+						<img src="https://s3.ax1x.com/2021/02/17/ygJVLq.jpg" style="height: 100%  ! important; width: 100% ! important;" /><br><br>
+						<h3><a href="https://ethicsbowlchina.com/scebc" style="color:#3498db ! important;">Sichuan Chapter, Ethics Bowl China</a></h3>
+					</header>
+					<p>
+						The Sichuan Chapter of the Ethics Bowl China (SCEBC) is based at Jiaxiang Foreign Language School in Chengdu, Sichuan. The first SCEBC was held in person on August 13th, 2020.
+					</p>
+					<ul class="actions">
+						<li><a href="https://ethicsbowlchina.com/scebc" class="button alt" style="color:#3498db ! important;">Official Website</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="regionals">
+				<div class="inner">
+					<header>
+						<img src="https://s3.ax1x.com/2021/02/17/ygY0EV.jpg" style="height: 100%  ! important; width: 100% ! important;" /><br><br>
+						<h3><a style="color:#9b59b6 ! important;">Shenzhen High School Ethics Bowl</a></h3>
+					</header>
+					<p>
+						The Shenzhen High School Ethics Bowl is based at the Shenzhen College of International Education. The first competition there will be held in summer, 2021.
+					</p>
+					<ul class="actions">
+						<li><a class="button alt" style="color:#9b59b6 ! important;">Coming Soon</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="regionals">
+
+				<div class="inner">
+					<header>
+						<img src="https://s3.ax1x.com/2021/02/17/ygYcv9.jpg" style="height: 100%  ! important; width: 100% ! important;" /><br><br>
+						<h3><a>Xi'an High School Ethics Bowl</a></h3>
+					</header>
+					<p>
+						The Xi'an High School Ethics Bowl is founded in alliance with the Academic Debate Association of China. Its first Bowl will be held in ealy autumn, 2021.
+					</p>
+					<ul class="actions">
+						<li><a class="button alt">Coming Soon</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<article id="six" class="post invert style2">
+		<div class="image">
+			<img src="https://s1.ax1x.com/2020/04/17/JEnkJ1.jpg" alt="" data-position="60% center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header>
+					<h2><a href="about.html#contact">Join Us!</a></h2>
+				</header>
+				<p style="color: rgba(255, 255, 255, 0.9) ! important;">We are actively recruiting and supporting regional Ethics Bowl organizers as our affiliates. The Ethics Bowl China provides all kinds of support for our affiliates, including promotions,
+					fundraising, material design, and international collaboration opportunities with our partners. If you are interested in starting a regional Ethics Bowl competition in China, please free feel to contact the director at
+					info@ethicsbowlchina.com.</p>
+				<ul class="actions">
+					<li><a href="about.html#contact" class="button alt">Contact Info</a></li>
+				</ul>
+			</div>
+			<div class="postnav">
+				<a href="#five" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+				<a href="#footer" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</article>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://www.youtube.com/channel/UC3VG_IyE0O_FI4F3BEnZAmg/playlists" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+			<div class="dropdown">
+				<div class="dropdown-content">
+					<img src="https://s3.ax1x.com/2021/02/15/yyvK5n.jpg" />
+				</div>
+				<li><a class="icon fa-wechat"><span class="label">WeChat</span></a></li>
+			</div>
+		</ul>
+		<div class="copyright">
+			&copy; 2021 Ethics Bowl China. Website created by Leo Huang</a>.
+		</div>
+	</footer>
+
+	<!---
 <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {
@@ -521,11 +559,12 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express",
 
 <noscript>Cookie Consent by <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
 --->
-<!-- End Cookie Consent -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+	<!-- End Cookie Consent -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
 </html>
